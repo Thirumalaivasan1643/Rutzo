@@ -1,16 +1,18 @@
-import About from "@/app/components/about";
-import Aproch from "@/app/components/aproch";
-import MovingForward from "@/app/components/movingforward";
-import Whatwedo from "@/app/components/whatwedo";
+ 
+import About from "@/app/components/(About)/about";
+import Approch from "@/app/components/(About)/aproch";
+import Movingforward from "@/app/components/(About)/movingforward";
+import Whatwedo from "@/app/components/(About)/whatwedo";
 import React from "react";
 
 function page() {
   return (
     <div>
       <About />
-      <Whatwedo />
-      <Aproch />
-      <MovingForward />
+      <Whatwedo /> 
+      <Approch />
+      <Movingforward />
+
 
 
 

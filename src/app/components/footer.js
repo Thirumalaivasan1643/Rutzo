@@ -55,10 +55,11 @@ export default function Footer() {
               {/* Services */}
               <div>
                 <h3 className="text-[18px] font-semibold mb-4">Services</h3>
+
                 <ul className="space-y-2 text-[14px] text-gray-200">
                   <li>
                     <Link
-                      href="/service/custom-software"
+                      href="/service#custom-software"
                       className="hover:text-white"
                     >
                       Custom Software
@@ -67,7 +68,7 @@ export default function Footer() {
 
                   <li>
                     <Link
-                      href="/service/web-application"
+                      href="/service#web-application"
                       className="hover:text-white"
                     >
                       Web Application
@@ -76,7 +77,7 @@ export default function Footer() {
 
                   <li>
                     <Link
-                      href="/service/mobile-app"
+                      href="/service#mobile-app"
                       className="hover:text-white"
                     >
                       Mobile App
@@ -85,7 +86,7 @@ export default function Footer() {
 
                   <li>
                     <Link
-                      href="/service/digital-marketing"
+                      href="/service#digital-marketing"
                       className="hover:text-white"
                     >
                       Digital Marketing
@@ -94,7 +95,7 @@ export default function Footer() {
 
                   <li>
                     <Link
-                      href="/service/ui-ux-design"
+                      href="/service#ui-ux-design"
                       className="hover:text-white"
                     >
                       UI/UX Design
@@ -103,7 +104,7 @@ export default function Footer() {
 
                   <li>
                     <Link
-                      href="/service/social-media-management"
+                      href="/service#social-media-management"
                       className="hover:text-white"
                     >
                       Social Media Management
@@ -117,7 +118,7 @@ export default function Footer() {
                 <h3 className="text-[18px] font-semibold mb-4">Support</h3>
                 <ul className="space-y-2 text-[14px] text-gray-200">
                   <li>
-                    <Link href="/contact" className="hover:text-white">
+                    <Link href="/reachus" className="hover:text-white">
                       Contact
                     </Link>
                   </li>
@@ -218,6 +219,21 @@ export default function Footer() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       {/* mobile */}
 
       <div className="block lg:hidden">
@@ -225,112 +241,164 @@ export default function Footer() {
           className={`${poppins.className} bg-gradient-to-r from-[#5a4334] to-[#6b4f3b] text-white`}
         >
           <div className="max-w-7xl mx-auto px-6 py-20 flex flex-col gap-10">
+            <div className="flex flex-col items-center justify-center px-4">
+              {/* Row 1 — Pages + Services */}
+              <div className="flex  w-full">
+                {/* Pages */}
+                <div className="flex-1 flex flex-col">
+                  <h3 className="text-[18px] font-semibold mb-3">Pages</h3>
 
+                  <ul className="flex flex-col space-y-2 text-[14px] text-gray-200">
+                    <li>
+                      <Link href="/">Home</Link>
+                    </li>
+                    <li>
+                      <Link href="/product">Product</Link>
+                    </li>
+                    <li>
+                      <Link href="/service">Service</Link>
+                    </li>
+                    <li>
+                      <Link href="/about">About</Link>
+                    </li>
+                    <li>
+                      <Link href="/career">Career</Link>
+                    </li>
+                  </ul>
+                </div>
 
-<div className="flex flex-col items-center justify-center px-4">
-  {/* Row 1 — Pages + Services */}
-  <div className="flex  w-full">
+                {/* Services */}
+                <div className="flex-1 flex flex-col">
+                  <h3 className="text-[18px] font-semibold mb-3">Services</h3>
 
-    {/* Pages */}
-    <div className="flex-1 flex flex-col">
-      <h3 className="text-[18px] font-semibold mb-3">Pages</h3>
+                  <ul className="flex flex-col space-y-2 text-[14px] text-gray-200">
+                    <li>
+                      <Link
+                        href="/service#custom-software"
+                        className="hover:text-white"
+                      >
+                        Custom Software
+                      </Link>
+                    </li>
 
-      <ul className="flex flex-col space-y-2 text-[14px] text-gray-200">
-        <li><Link href="/">Home</Link></li>
-        <li><Link href="/product">Product</Link></li>
-        <li><Link href="/service">Service</Link></li>
-        <li><Link href="/about">About</Link></li>
-        <li><Link href="/career">Career</Link></li>
-      </ul>
-    </div>
+                    <li>
+                      <Link
+                        href="/service#web-application"
+                        className="hover:text-white"
+                      >
+                        Web Application
+                      </Link>
+                    </li>
 
+                    <li>
+                      <Link
+                        href="/service#mobile-app"
+                        className="hover:text-white"
+                      >
+                        Mobile App
+                      </Link>
+                    </li>
 
-    {/* Services */}
-    <div className="flex-1 flex flex-col">
-      <h3 className="text-[18px] font-semibold mb-3">Services</h3>
+                    <li>
+                      <Link
+                        href="/service#digital-marketing"
+                        className="hover:text-white"
+                      >
+                        Digital Marketing
+                      </Link>
+                    </li>
 
-      <ul className="flex flex-col space-y-2 text-[14px] text-gray-200">
-        <li><Link href="/service/custom-software">Custom Software</Link></li>
-        <li><Link href="/service/web-application">Web Application</Link></li>
-        <li><Link href="/service/mobile-app">Mobile App</Link></li>
-        <li><Link href="/service/digital-marketing">Digital Marketing</Link></li>
-        <li><Link href="/service/ui-ux-design">UI/UX Design</Link></li>
-        <li><Link href="/service/social-media-management">Social Media Management</Link></li>
-      </ul>
-    </div>
+                    <li>
+                      <Link
+                        href="/service#ui-ux-design"
+                        className="hover:text-white"
+                      >
+                        UI/UX Design
+                      </Link>
+                    </li>
 
-  </div>
+                    <li>
+                      <Link
+                        href="/service#social-media-management"
+                        className="hover:text-white"
+                      >
+                        Social Media Management
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
+              {/* Row 2 — Support + Logo */}
+              <div className="flex w-full mt-6">
+                {/* Support */}
+                <div className="flex-1 flex flex-col justify-center">
+                  <h3 className="text-[18px] font-semibold mb-3">Support</h3>
 
+                  <ul className="flex flex-col space-y-2 text-[14px] text-gray-200">
+                    <li>
+                      <Link href="/contact">Contact</Link>
+                    </li>
+                    <li>
+                      <Link href="/terms">Terms & Conditions</Link>
+                    </li>
+                    <li>
+                      <Link href="/privacy">Privacy Policy</Link>
+                    </li>
+                  </ul>
+                </div>
 
-  {/* Row 2 — Support + Logo */}
-  <div className="flex w-full mt-6">
+                {/* Logo + Social */}
+                <div className="flex-1 flex flex-col items-center justify-center">
+                  <Link href="/">
+                    <Image
+                      src="/rutzo.png"
+                      alt="Rutzo Tech Logo"
+                      width={80}
+                      height={80}
+                      priority
+                    />
+                  </Link>
 
-    {/* Support */}
-    <div className="flex-1 flex flex-col justify-center">
-      <h3 className="text-[18px] font-semibold mb-3">Support</h3>
+                  <p className="text-gray-200 text-[14px] mt-2">rutzo tech</p>
 
-      <ul className="flex flex-col space-y-2 text-[14px] text-gray-200">
-        <li><Link href="/contact">Contact</Link></li>
-        <li><Link href="/terms">Terms & Conditions</Link></li>
-        <li><Link href="/privacy">Privacy Policy</Link></li>
-      </ul>
-    </div>
+                  <div className="w-32 border-t border-gray-300 opacity-40 my-4"></div>
 
+                  <div className="flex gap-3">
+                    <Link
+                      href="https://www.instagram.com/rutzo_tech"
+                      target="_blank"
+                    >
+                      <div className="bg-white p-2 rounded-full">
+                        <Instagram size={16} className="text-[#5a4334]" />
+                      </div>
+                    </Link>
 
-    {/* Logo + Social */}
-    <div className="flex-1 flex flex-col items-center justify-center">
+                    <Link href="https://facebook.com" target="_blank">
+                      <div className="bg-white p-2 rounded-full">
+                        <Facebook size={16} className="text-[#5a4334]" />
+                      </div>
+                    </Link>
 
-      <Link href="/">
-        <Image
-          src="/rutzo.png"
-          alt="Rutzo Tech Logo"
-          width={80}
-          height={80}
-          priority
-        />
-      </Link>
+                    <Link
+                      href="https://www.linkedin.com/company/rutzo-tech/about/?viewAsMember=true"
+                      target="_blank"
+                    >
+                      <div className="bg-white p-2 rounded-full">
+                        <Linkedin size={16} className="text-[#5a4334]" />
+                      </div>
+                    </Link>
 
-      <p className="text-gray-200 text-[14px] mt-2">
-        rutzo tech
-      </p>
-
-      <div className="w-32 border-t border-gray-300 opacity-40 my-4"></div>
-
-      <div className="flex gap-3">
-
-        <Link href="https://www.instagram.com/rutzo_tech" target="_blank">
-          <div className="bg-white p-2 rounded-full">
-            <Instagram size={16} className="text-[#5a4334]" />
+                    <Link href="https://youtube.com" target="_blank">
+                      <div className="bg-white p-2 rounded-full">
+                        <Youtube size={16} className="text-[#5a4334]" />
+                      </div>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </Link>
-
-        <Link href="https://facebook.com" target="_blank">
-          <div className="bg-white p-2 rounded-full">
-            <Facebook size={16} className="text-[#5a4334]" />
-          </div>
-        </Link>
-
-        <Link href="https://www.linkedin.com/company/rutzo-tech/about/?viewAsMember=true" target="_blank">
-          <div className="bg-white p-2 rounded-full">
-            <Linkedin size={16} className="text-[#5a4334]" />
-          </div>
-        </Link>
-
-        <Link href="https://youtube.com" target="_blank">
-          <div className="bg-white p-2 rounded-full">
-            <Youtube size={16} className="text-[#5a4334]" />
-          </div>
-        </Link>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</div>
-</div>
           {/* Bottom */}
           <div className="border-t border-gray-300 opacity-40"></div>
 

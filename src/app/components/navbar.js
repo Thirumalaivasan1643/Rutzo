@@ -121,26 +121,26 @@ function Navbar() {
                     Career
                   </Link>
                 </li>
+
+                 
               </ul>
             </div>
 
             {/* REACH US BUTTON */}
-            <div className="relative overflow-hidden border border-[#E39B5B] text-[#E39B5B] px-7 py-2 rounded-md text-sm cursor-pointer group shrink-0">
-              <span className="absolute inset-0 bg-[#E39B5B] -translate-x-full -translate-y-full group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-200"></span>
+            <Link href="/reachus">
+              <div className="relative overflow-hidden border border-[#E39B5B] text-[#E39B5B] px-7 py-2 rounded-md text-sm cursor-pointer group shrink-0">
+                <span className="absolute inset-0 bg-[#E39B5B] -translate-x-full -translate-y-full group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-200"></span>
 
-              <span className="absolute inset-0 bg-[#E39B5B] translate-x-full translate-y-full group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-200"></span>
+                <span className="absolute inset-0 bg-[#E39B5B] translate-x-full translate-y-full group-hover:translate-x-0 group-hover:translate-y-0 transition-transform duration-200"></span>
 
-              <span className="relative z-10 group-hover:text-white transition whitespace-nowrap">
-                Reach us
-              </span>
-            </div>
+                <span className="relative z-10 group-hover:text-white transition whitespace-nowrap">
+                  Reach us
+                </span>
+              </div>
+            </Link>
           </div>
         </nav>
       </div>
-
-
-
-
 
       {/* MOBILE NAVBAR */}
 
@@ -193,6 +193,11 @@ function Navbar() {
 
             <Link href="/career" onClick={() => setIsOpen(false)}>
               Career
+            </Link>
+             
+
+            <Link href="/reachus" onClick={() => setIsOpen(false)}>
+              Reach Us
             </Link>
           </ul>
         </div>

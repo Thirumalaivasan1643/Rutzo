@@ -1,26 +1,25 @@
-import CustomSoftwarePage from '@/app/components/custom-software'
-import DigitalMarketingPage from '@/app/components/digital-marketing'
-import MobileAppPage from '@/app/components/mobile-app'
-import SocialMediaManagementPage from '@/app/components/social-media-management'
-import UIUXDesignPage from '@/app/components/ui-ux-design'
-import WebApplicationPage from '@/app/components/web-application'
-import React from 'react'
+import CustomSoftwarePage from "@/app/components/(Services)/custom-software";
+import DigitalMarketingPage from "@/app/components/(Services)/digital-marketing";
+import MobileAppPage from "@/app/components/(Services)/mobile-app";
+import SocialMediaManagementPage from "@/app/components/(Services)/social-media-management";
+import UIUXDesignPage from "@/app/components/(Services)/ui-ux-design";
+import WebApplicationPage from "@/app/components/(Services)/web-application";
+import React from "react";
 
 function page() {
   return (
     <div>
-      
-       <CustomSoftwarePage />
+      <CustomSoftwarePage />
 
-<WebApplicationPage/>
+      <WebApplicationPage />
 
-<MobileAppPage/>
+      <MobileAppPage />
 
-<DigitalMarketingPage/>
-<UIUXDesignPage />
-<SocialMediaManagementPage />
+      <DigitalMarketingPage />
+      <UIUXDesignPage />
+      <SocialMediaManagementPage />
     </div>
-  )
+  );
 }
 
-export default page
+export default page;

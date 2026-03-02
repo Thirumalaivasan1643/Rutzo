@@ -8,28 +8,26 @@ import comingSoonAnimation from "../../coming soon.json";
 function Page() {
   return (
     <div>
-      <div className="hidden sm:hidden md:hidden xl:block lg:block 2xl:hidden">
+      {/* ================= DESKTOP ================= */}
+      <div className="hidden lg:block xl:block 2xl:block">
         <section
           className={`${poppins.className} w-full h-screen flex items-center justify-center`}
         >
-          {/* Main Column Layout */}
           <div className="flex flex-col items-center text-center px-6 gap-10">
             {/* Lottie Animation */}
-            <div>
-              <Lottie
-                animationData={comingSoonAnimation}
-                loop={true}
-                className="w-[600px] h-[300px]"
-              />
-            </div>
+            <Lottie
+              animationData={comingSoonAnimation}
+              loop
+              className="w-[600px] h-[350px]"
+            />
 
-            {/* Text Content Wrapper */}
+            {/* Text */}
             <div className="flex flex-col gap-4">
-              <p className="text-md text-gray-700">
+              <p className="text-lg text-gray-700">
                 Something special is cooking. We’ll be ready soon.
               </p>
 
-              <p className="text-md    text-gray-500">
+              <p className="text-base text-gray-500">
                 We&apos;re building a powerful experience for you.
               </p>
             </div>
@@ -37,32 +35,26 @@ function Page() {
         </section>
       </div>
 
-
-
-      {/* mobile */}
-
-      <div className="block sm:block md:block xl:hidden lg:hidden 2xl:hidden">
+      {/* ================= MOBILE ================= */}
+      <div className="block lg:hidden xl:hidden 2xl:hidden">
         <section
-          className={`${poppins.className} w-full min-h-[500px] flex  py-10  justify-center`}
+          className={`${poppins.className} w-full min-h-[500px] flex items-center justify-center py-10`}
         >
-          {/* Main Column Layout */}
-          <div className="flex flex-col items-center text-center px-6 ">
+          <div className="flex flex-col items-center text-center px-6 gap-6">
             {/* Lottie Animation */}
-            <div>
-              <Lottie
-                animationData={comingSoonAnimation}
-                loop={true}
-                className="w-[300px] h-[300px]"
-              />
-            </div>
+            <Lottie
+              animationData={comingSoonAnimation}
+              loop
+              className="w-[280px] h-[260px]"
+            />
 
-            {/* Text Content Wrapper */}
-            <div className="flex flex-col gap-4">
-              <p className="text-md text-gray-700">
+            {/* Text */}
+            <div className="flex flex-col gap-3">
+              <p className="text-base text-gray-700">
                 Something special is cooking. We’ll be ready soon.
               </p>
 
-              <p className="text-md    text-gray-500">
+              <p className="text-sm text-gray-500">
                 We&apos;re building a powerful experience for you.
               </p>
             </div>
